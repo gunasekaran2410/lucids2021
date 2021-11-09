@@ -4,7 +4,7 @@ import pupa from '../../src/assets/img/Pupa Labs Logo.png';
 class Footer extends React.Component {
     render(){
         return (
-            <> <Container>
+            <div> <Container>
                 <hr></hr>
             <Row>
            
@@ -18,7 +18,7 @@ class Footer extends React.Component {
             
             </Row>
           </Container>
-              </>
+              </div>
           )
     }
     }

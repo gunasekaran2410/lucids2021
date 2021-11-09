@@ -13,7 +13,7 @@ import pinterest from '../../src/assets/img/pinterest.png';
 class Header extends React.Component {
 render(){
     return (
-        <><Container>
+        <div><Container>
           <Row>
             <Col className='list' md={2} sm={0} xs={0}>
   
@@ -47,7 +47,7 @@ render(){
             </Col>
           </Row>
         </Container>
-          </>
+          </div>
       )
 }
 }
