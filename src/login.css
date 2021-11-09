@@ -4,7 +4,7 @@ form{
   Form h1{
     color: #000;
     letter-spacing: 1px;
-    font-size: 44px;
+    font-size: 60px !important;
     font-weight: 400;
     
   }
