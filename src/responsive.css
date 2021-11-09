@@ -1,0 +1,247 @@
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .story{
+            transform:unset;
+            position: relative;
+            top: 0;
+            right: 0;
+            display: unset;
+          }
+          .story span{
+            font-size: 2.5rem !important;
+          }
+          .road{
+            transform:unset;
+            position: relative;
+            top: 0;
+            right: 0;
+            display: unset;
+          }
+          .road span{
+            font-size: 2rem !important;
+          }
+    
+
+          .player-wrapper {
+            position: relative;
+            padding-top: 0.5% /* Player ratio: 100 / (1280 / 720) */
+          }
+
+   
+          
+          .react-player {
+            position: relative;
+            top: 0;
+            height: unset !important;
+            left: 0;
+          }
+         
+          .first_footer{
+            text-align: center;
+        }
+        .second_footer{
+            text-align: center;
+        }
+        .third_footer{
+            text-align: center;
+        }
+        .launching_month{
+          font-size: 1rem;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        .story{
+            transform: unset;
+            position: relative;
+            top: 0;
+            right: 0;
+            display: unset;
+          }
+          .story span{
+            font-size: 2.5rem !important;
+          }
+
+          .road{
+            transform: unset;
+            position: relative;
+            top: 0;
+            right: 0;
+            display: unset;
+          }
+          .road span{
+            font-size: 2.5rem !important;
+          }
+
+          .player-wrapper {
+            position: relative;
+            padding-top: 0.25% /* Player ratio: 100 / (1280 / 720) */
+          }
+          
+          .react-player {
+            position: relative;
+            top: 0;
+            height: unset !important;
+            left: 0;
+          }
+        
+          .first_footer{
+            text-align: center;
+        }
+        .second_footer{
+            text-align: center;
+        }
+        .third_footer{
+            text-align: center;
+        }
+        .launching_month{
+          font-size: 2rem;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .story{
+            transform: unset;
+            position: relative;
+            top: 0;
+            right: 0;
+            display: unset;
+          }
+          .story span{
+            font-size: 1.5rem !important;
+          }
+          .road{
+            transform: unset;
+            position: relative;
+            top: 0;
+            right: 0;
+            display: unset;
+          }
+          .road span{
+            font-size: 1rem !important;
+          }
+          .player-wrapper {
+            position: relative;
+            padding-top: 0.25% /* Player ratio: 100 / (1280 / 720) */
+          }
+          
+          .react-player {
+            position: relative;
+            top: 0;
+            height: unset !important;
+            left: 0;
+          }
+         
+          .first_footer{
+            text-align: center;
+        }
+        .second_footer{
+            text-align: center;
+        }
+        .third_footer{
+            text-align: center;
+        }
+        .launching_month{
+          font-size: 3.5rem;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .story{
+            transform: rotate(-90deg);
+            position: relative;
+            top: 50%;
+            right: 0;
+            display: flex;
+          }
+          .story span{
+            font-size: 3.5rem !important;
+          }
+          .road{
+            transform: rotate(-90deg);
+            position: relative;
+            top: 70%;
+            right: 0;
+            display: flex;
+          }
+          .road span{
+            font-size: 3.5rem !important;
+          }
+
+          .player-wrapper {
+            position: relative;
+            padding-top: 47.25% /* Player ratio: 100 / (1280 / 720) */
+          }
+          
+          .react-player {
+            position: absolute;
+            top: 0;
+            height: 500px !important;
+            left: 0;
+          }
+       
+          .first_footer{
+            text-align: left;
+        }
+        .second_footer{
+            text-align: center;
+        }
+        .third_footer{
+            text-align: right;
+        }
+        .launching_month{
+          font-size: 5.5rem;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .story{
+            transform: rotate(-90deg);
+            position: relative;
+            top: 50%;
+            right: 0;
+            display: flex;
+          }
+          .road{
+            transform: rotate(-90deg);
+            position: relative;
+            top: 70%;
+            right: 0;
+            display: flex;
+          }
+          .road span{
+            font-size: 3.5rem !important;
+          }
+          .player-wrapper {
+            position: relative;
+            padding-top: 47.25% /* Player ratio: 100 / (1280 / 720) */
+          }
+          
+          .react-player {
+            position: absolute;
+            top: 0;
+            height: 500px !important;
+            left: 0;
+          }
+          .story span{
+            font-size: 3.5rem !important;
+          }
+          .first_footer{
+              text-align: left;
+          }
+          .second_footer{
+              text-align: center;
+          }
+          .third_footer{
+              text-align: right;
+          }
+          .launching_month{
+            font-size: 5.5rem;
+          }
+
+
+    }

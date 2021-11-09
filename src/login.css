@@ -1,0 +1,47 @@
+form{
+  max-width: 250px;
+}
+  Form h1{
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 44px;
+    font-weight: 400;
+    
+  }
+  .borderCls{
+    outline: 0;
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+  }
+  form p{
+      color: #000 !important;
+      margin-bottom: 3rem;
+  }
+  .pageBack{
+    background-color: #fff !important;
+  }
+  /* input {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #ccc;
+          
+  } */
+  .mb-3 {
+    margin-bottom: 1
+rem
+!important;
+    margin-left: 2
+rem
+;
+    margin-right: 2
+rem
+;
+}
+.btn-blue{
+  background-color: #384ad3 !important;
+  border-color: #384ad3 ;
+  border-radius: 0 !important;
+  margin-top: 2rem;
+}
