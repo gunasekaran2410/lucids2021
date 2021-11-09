@@ -31,7 +31,7 @@ class Login extends React.Component {
 
     render() {
         return (
-            <div>
+           
                 <div className="pageBack">
                     <Container className="pageBack">
                         <Row className="pageBack">
@@ -72,7 +72,7 @@ class Login extends React.Component {
                         </Row>
                     </Container>
                 </div>
-            </div>
+           
         )
     }
 }
